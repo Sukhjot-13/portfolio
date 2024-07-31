@@ -24,7 +24,7 @@ const projects = [
     tag: "Web Development",
     frontend: "React",
     backend: "Node.js, MongoDB",
-    website: "https://sukhurl.netlify.app/",
+    website: "https://ecommerce-client-chi-cyan.vercel.app/",
     description:
       "Ecommerce website is a web app that allows users to buy products. Users can create an account, add products to cart, and checkout. This project was built using React, Tailwind CSS, Node.js, MongoDB.",
     features: [
