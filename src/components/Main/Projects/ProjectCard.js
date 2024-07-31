@@ -13,11 +13,11 @@ function ProjectCard({ project }) {
   return (
     <div>
       <div className="relative group" onClick={handleOpenModal}>
-        <div className="w-full h-72 rounded-xl overflow-hidden mb-3 bg-black relative">
+        <div className="w-full h-72 rounded-xl overflow-hidden mb-3 bg-white relative">
           <Image
             src={project.image}
-            width="auto"
-            height="auto"
+            width={300}
+            height={300}
             alt={project.title}
             className="cover w-full h-full transition-transform duration-300 group-hover:scale-110 group-hover:blur-sm"
           />
@@ -28,7 +28,7 @@ function ProjectCard({ project }) {
         <h5 className="text-primary-heading font-bold text-xl text-center">
           {project.title}
         </h5>
-        <p className="text-primary-text text-center">{project.tag}</p>
+        <p className="text-highlight-text text-center">{project.tag}</p>
       </div>
     </div>
   );

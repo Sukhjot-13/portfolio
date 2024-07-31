@@ -2,7 +2,6 @@ import React from "react";
 import ProjectCard from "@/components/Main/Projects/ProjectCard";
 import Underline from "@/lib/Underline/Underline";
 import SwipeTransition from "@/lib/Transitions/SwipeTransition";
-import urlShort from "@/images/urlShort.jpg";
 const projects = [
   {
     title: "Url Shortner",
@@ -18,7 +17,7 @@ const projects = [
       "Real-time link count tracking",
       "Link Expiry",
     ],
-    image: urlShort,
+    image: "/urlShort.webp",
   },
   {
     title: "Ecommerce Website",
@@ -35,7 +34,7 @@ const projects = [
       "Real-time cart count tracking",
       "Real-time checkout",
     ],
-    image: urlShort,
+    image: "/ecommerce.png",
   },
   {
     title: "React native Ecommerce",
@@ -52,7 +51,7 @@ const projects = [
       "Real-time cart count tracking",
       "Real-time checkout",
     ],
-    image: urlShort,
+    image: "/mobileEcommerce.png",
   },
   {
     title: "Retro Website",
@@ -63,7 +62,7 @@ const projects = [
     description:
       "Retro website for Ford mustang 1980. This project was built using HTML, CSS & JavaScript. The website is responsive.",
     features: ["Responsive design", "Small Animations"],
-    image: urlShort,
+    image: "/retro.png",
   },
 ];
 

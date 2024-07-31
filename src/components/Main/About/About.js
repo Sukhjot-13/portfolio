@@ -35,21 +35,6 @@ const testimonialsData = [
       "Sukhjot is a skilled full-stack developer with expertise in React, Node.js, and Next.js. He's dedicated to showcasing his skills and connecting with others through technology. He's a passionate team player who thrives on collaborating with others. He's a great addition to any development team.",
     image: avatar,
   },
-  {
-    name: "John Doe",
-    position: "CEO, AJND.inc",
-    testimonial:
-      "Sukhjot is a skilled full-stack developer with expertise in React, Node.js, and Next.js. He's dedicated to showcasing his skills and connecting with others through technology. He's a passionate team player who thrives on collaborating with others. He's a great addition to any development team.",
-    image: avatar,
-  },
-  {
-    name: "John Doe",
-    position: "CEO, AJND.inc",
-    testimonial:
-      "Sukhjot is a skilled full-stack developer with expertise in React, Node.js, and Next.js. He's dedicated to showcasing his skills and connecting with others through technology. He's a passionate team player who thrives on collaborating with others. He's a great addition to any development team.",
-    image: avatar,
-  },
-  // Additional testimonials...
 ];
 
 function About({ dirction }) {

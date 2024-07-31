@@ -15,13 +15,13 @@ function ProjectModal({ project }) {
       </p>
       <div className="w-full my-8">
         <div className="w-full flex flex-col md:flex-row md:justify-start ">
-          <div className="w-full h-64 rounded-xl overflow-hidden mb-3 md:w-72 md:h-72">
+          <div className="w-full h-64 rounded-xl overflow-hidden mb-3 md:w-72 md:h-72 bg-white">
             <Image
               src={project.image}
               alt="project"
               className="object-cover md:w-72 md:h-72"
-              width="auto"
-              height="auto"
+              width="500"
+              height="500"
             />
           </div>
           <div className="md:text-left md:ml-4 md:flex md:justify-between md:flex-col ">
