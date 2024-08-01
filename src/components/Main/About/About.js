@@ -5,6 +5,7 @@ import WebDev from "@/lib/Svg/WebDev";
 import MobileDev from "@/lib/Svg/MobileDev";
 import Image from "next/image";
 import avatar from "@/images/avatar.png";
+import womanAvatar from "@/images/womanAvatar.png";
 const skillsData = [
   {
     title: "Web Development",
@@ -22,18 +23,11 @@ const skillsData = [
 
 const testimonialsData = [
   {
-    name: "John Doe",
+    name: "Lucie Porter",
     position: "CEO, AJND.inc",
     testimonial:
-      "Sukhjot is a skilled full-stack developer with expertise in React, Node.js, and Next.js. He's dedicated to showcasing his skills and connecting with others through technology. He's a passionate team player who thrives on collaborating with others. He's a great addition to any development team.",
-    image: avatar,
-  },
-  {
-    name: "John Doe",
-    position: "CEO, AJND.inc",
-    testimonial:
-      "Sukhjot is a skilled full-stack developer with expertise in React, Node.js, and Next.js. He's dedicated to showcasing his skills and connecting with others through technology. He's a passionate team player who thrives on collaborating with others. He's a great addition to any development team.",
-    image: avatar,
+      "Sukhjot led his team with great effectiveness, exhibiting remarkable leadership qualities. He made substantial contributions to the planning and research stages and was crucial in establishing the project's goals. His excellent problem-solving and technical capabilities were crucial in leading the team to a successful project conclusion. Sukhjot is a very committed and driven person who constantly went above and beyond. I have faith that he can make a significant contribution to any kind of organization.",
+    image: womanAvatar,
   },
 ];
 
@@ -106,12 +100,13 @@ function About({ dirction }) {
                 key={index}
                 className="bg-tertiary-bg p-5 flex-shrink-0 flex flex-col relative pt-12 mt-16 rounded-xl w-full lg:w-1/2"
               >
-                <div className="absolute -top-10 -left-2">
+                <div className="absolute -top-10 -left-0.8 ">
                   <Image
                     src={testimonial.image}
                     alt="testimonial"
-                    className="rounded-full "
+                    className="rounded-full w-[99px] h-[91px]"
                     width={140}
+                    height={140}
                     // height={140}
                   />
                 </div>
