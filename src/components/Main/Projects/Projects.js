@@ -18,6 +18,7 @@ const projects = [
       "Link Expiry",
     ],
     image: "/urlShort.webp",
+    github: "https://github.com/Sukhjot-13/url_shortner",
   },
   {
     title: "Ecommerce Website",
@@ -35,6 +36,7 @@ const projects = [
       "Real-time checkout",
     ],
     image: "/ecommerce.png",
+    github: "https://github.com/Sukhjot-13/ecommerce_mern",
   },
   {
     title: "React native Ecommerce",
@@ -63,6 +65,7 @@ const projects = [
       "Retro website for Ford mustang 1980. This project was built using HTML, CSS & JavaScript. The website is responsive.",
     features: ["Responsive design", "Small Animations"],
     image: "/retro.png",
+    github: "https://github.com/Sukhjot-13/retroo",
   },
 ];
 
