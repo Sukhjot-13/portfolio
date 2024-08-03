@@ -104,7 +104,7 @@ function About({ dirction }) {
                   <Image
                     src={testimonial.image}
                     alt="testimonial"
-                    className="rounded-full w-[99px] h-[91px]"
+                    className="rounded-full w-[80px] h-[80px]"
                     width={140}
                     height={140}
                     // height={140}

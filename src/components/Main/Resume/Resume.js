@@ -24,7 +24,7 @@ function Resume({ direction }) {
   const experienceTimelineData = [
     {
       date: "May 2024-Present",
-      title: "Mobile App Developer (Team lead)",
+      title: "Mobile Application Developer (Intern, Team lead)",
       description:
         "I am currently working as a team lead in a mobile app development team at IHP(Interact health pro). I am responsible for leading a team of developers, managing project timelines, and ensuring the quality of the app.",
       icon: <FaMobileAlt />,
