@@ -8,7 +8,7 @@ import { FaSchool } from "react-icons/fa6";
 import Underline from "@/lib/Underline/Underline";
 import SwipeTransition from "@/lib/Transitions/SwipeTransition";
 import Certifications from "@/components/Main/Resume/Certifications/Certifications";
-import { FaShieldAlt, FaMedkit, FaRegLifeRing } from "react-icons/fa";
+import { FaShieldAlt, FaMedkit, FaRegLifeRing, FaStore } from "react-icons/fa";
 import Slider from "@/lib/Slider/Slider";
 import {
   SiReact,
@@ -23,28 +23,44 @@ import {
 function Resume({ direction }) {
   const experienceTimelineData = [
     {
-      date: "May 2024-Present",
-      title: "Mobile Application Developer (Intern, Team lead)",
+      date: "February 2024 - November 2024",
+      title: "Mobile Application Developer (Intern), IHP (Interact Health Pro)",
       description:
-        "I am currently working as a team lead in a mobile app development team at IHP(Interact health pro). I am responsible for leading a team of developers, managing project timelines, and ensuring the quality of the app.",
+        "Executed the full mobile development lifecycle, translating complex UI/UX designs into functional, high-performance mobile applications. Developed and optimized both front-end (using React/Next.Js) and robust back-end components, including API development and secure database integration (MongoDB/MySQL). Applied project management principles to define objectives, assign tasks, and monitor progress, ensuring project deadlines were consistently met. Provided technical expertise in debugging complex code, troubleshooting programmatic issues, and generating detailed technical documentation for future reference.",
       icon: <FaMobileAlt />,
       iconColor: "bg-blue-500",
     },
     {
-      date: "January 2024-May 2024",
-      title: "Patient Transfer ",
+      date: "May 2023 - Present",
+      title: "Assistant Store Manager, Burger King",
       description:
-        "I was a patient transfer assistant, I was responsible for transferring patients from one hospital to another or to third party care centers.",
+        "Directed and supervised crew members during shifts, ensuring efficient service delivery and adherence to corporate quality and sanitation standards. Enhanced customer satisfaction ratings by effectively mediating and resolving customer complaints with professionalism and promptness. Managed critical financial operations, overseeing cash registers, balancing cash drawers, and ensuring accurate reporting of all shift transactions. Cultivated a positive and collaborative work environment, encouraging teamwork and providing constructive feedback to motivate staff performance.",
+      icon: <SiBurgerking />,
+      iconColor: "bg-orange-500",
+    },
+    {
+      date: "September 2022 - Present",
+      title: "Assistant Team Leader, Dollarama",
+      description:
+        "Managed daily store operations, workflow scheduling, and delegation of tasks to ensure peak productivity and efficiency across the floor. Executed critical opening and closing procedures, including comprehensive cash reconciliation, bank deposits, and maintaining stringent store security protocols. Optimized inventory management by ensuring accurate merchandise stocking, visual organization, and full compliance with corporate merchandising standards. Resolved customer inquiries and complaints promptly and professionally while handling high-volume cash transactions and balancing tills.",
+      icon: <FaStore />,
+      iconColor: "bg-green-600",
+    },
+    {
+      date: "November 2023 - April 2024",
+      title: "Patient Transfer Attendant, Encore",
+      description:
+        "Coordinated complex patient transfers between facilities, prioritizing safe, timely, and compliant transportation logistics. Maintained clear and professional communication with healthcare providers, patients, and families to facilitate seamless operational transitions. Strictly adhered to patient confidentiality guidelines (HIPAA/PHI) throughout all transfer and documentation processes.",
       icon: <FaRegHospital />,
       iconColor: "bg-red-500",
     },
     {
-      date: "May 2023 - Present",
-      title: "Burger King (Part-time)",
+      date: " ",
+      title: "Mobile/Security Guard, G Force Security, iGuard360 and Jayo security",
       description:
-        "I am currently working as a part-time employee at Burger King. I am responsible for preparing and serving food, handling cash transactions, and providing excellent customer service.",
-      icon: <SiBurgerking />,
-      iconColor: "bg-blue-500",
+        "Monitored and maintained secure environments for commercial establishments and banking premises through consistent patrolling and proactive risk assessment. Managed and responded immediately to emergency security calls for various institutions during both day and night shifts, ensuring prompt resolution. Conducted detailed vehicle patrols across designated large areas to ensure comprehensive safety and protection of assets. Demonstrated strong situational awareness and problem-solving skills in high-pressure scenarios.",
+      icon: <FaShieldAlt />,
+      iconColor: "bg-gray-700",
     },
   ];
   const educationTimelineData = [
@@ -68,17 +84,14 @@ function Resume({ direction }) {
   const license = [
     {
       title: "First responder certification from Red Cross",
-      till: "2027",
       icon: <FaRegLifeRing className="text-highlight-text" />,
     },
     {
       title: "First aid certification",
-      till: "2026",
       icon: <FaMedkit className="text-highlight-text" />,
     },
     {
       title: "Security guard certification",
-      till: "2025",
       icon: <FaShieldAlt className="text-highlight-text" />,
     },
   ];

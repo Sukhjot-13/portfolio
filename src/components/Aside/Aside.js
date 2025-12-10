@@ -20,11 +20,6 @@ function Aside() {
       icon: <MdOutlineLocalPhone color="hsl(45, 100%, 72%)" />,
       text: "+1 647-530-8909",
     },
-    {
-      heading: "Birthday",
-      icon: <MdOutlineCake color="hsl(45, 100%, 72%)" />,
-      text: "13th April, 2004",
-    },
   ];
 
   return (

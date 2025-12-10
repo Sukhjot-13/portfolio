@@ -14,7 +14,7 @@ const Certifications = ({ certifications }) => {
               <h4 className="text-xl font-bold text-primary-heading">
                 {cert.title}
               </h4>
-              <p className="text-secondary-text">Valid until: {cert.till}</p>
+
             </div>
           </div>
         ))}
