@@ -13,6 +13,8 @@ function Contact({ direction }) {
     message: "",
   });
   const [messageStatus, setMessageStatus] = useState(null);
+  const [isSending, setIsSending] = useState(false);
+
   const handleChange = (e) => {
     const { id, value } = e.target;
     setFormData((prevState) => ({
@@ -20,8 +22,14 @@ function Contact({ direction }) {
       [id]: value,
     }));
   };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (isSending) return;
+
+    setIsSending(true);
+    setMessageStatus(null); // Clear previous status
+
     try {
       const res = await submitMessage(
         formData.name,
@@ -30,11 +38,15 @@ function Contact({ direction }) {
       );
       if (res) {
         setMessageStatus("sent");
+        setFormData({ name: "", email: "", message: "" }); // Reset form
       } else {
         setMessageStatus("failed");
       }
     } catch (err) {
       console.log(err);
+      setMessageStatus("failed");
+    } finally {
+      setIsSending(false);
     }
   };
   return (
@@ -59,6 +71,7 @@ function Contact({ direction }) {
                 value={formData.name}
                 onChange={handleChange}
                 placeholder="Your Name"
+                disabled={isSending}
               />
             </div>
             <div className="mb-4">
@@ -75,6 +88,7 @@ function Contact({ direction }) {
                 value={formData.email}
                 onChange={handleChange}
                 placeholder="Your Email"
+                disabled={isSending}
               />
             </div>
             <div className="mb-6">
@@ -91,10 +105,11 @@ function Contact({ direction }) {
                 value={formData.message}
                 onChange={handleChange}
                 placeholder="Your Message"
+                disabled={isSending}
               ></textarea>
             </div>
             <div className="flex items-center justify-center ">
-              <SendButton />
+              <SendButton disabled={isSending} />
             </div>
             {messageStatus === "sent" && (
               <div className="text-center text-sm text-green-300 mt-6">

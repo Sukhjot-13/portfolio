@@ -2,72 +2,9 @@ import React from "react";
 import ProjectCard from "@/components/Main/Projects/ProjectCard";
 import Underline from "@/lib/Underline/Underline";
 import SwipeTransition from "@/lib/Transitions/SwipeTransition";
-const projects = [
-  {
-    title: "Url Shortner",
-    tag: "Web Development",
-    frontend: "Next.js, React, Tailwind CSS",
-    backend: "Node.js, MongoDB",
-    website: "https://sukhurl.netlify.app/",
-    description:
-      "Url Shortner is a web app that allows users to shorten their long URLs. Users can create an account, create a short URL, and share it with friends. This project was built using Next.js, React, Tailwind CSS, Node.js and MongoDB. The links expires after a fixed time period.",
-    features: [
-      "Fully responsive design",
-      "Custom user authentication",
-      "Real-time link count tracking",
-      "Link Expiry",
-    ],
-    image: "/urlShort.webp",
-    github: "https://github.com/Sukhjot-13/url_shortner",
-  },
-  {
-    title: "Ecommerce Website",
-    tag: "Web Development",
-    frontend: "React",
-    backend: "Node.js, MongoDB",
-    website: "https://ecommerce-client-chi-cyan.vercel.app/",
-    description:
-      "Ecommerce website is a web app that allows users to buy products. Users can create an account, add products to cart, and checkout. This project was built using React, Tailwind CSS, Node.js, MongoDB.",
-    features: [
-      "Responsive design",
-      "User authentication using firebase",
-      "Payment Gateway Integration using stripe",
-      "Real-time cart count tracking",
-      "Real-time checkout",
-    ],
-    image: "/ecommerce.png",
-    github: "https://github.com/Sukhjot-13/ecommerce_mern",
-  },
-  {
-    title: "React native Ecommerce",
-    tag: "Mobile Development",
-    frontend: "React Native, Expo, Firebase, Stripe & tailwind CSS",
-    backend: "Node.js, MongoDB",
-    website: "https://sukhurl.netlify.app/",
-    description:
-      "Ecommerce mobile app is a mobile app that allows users to buy products. Users can create an account, add products to cart, and checkout. This project was built using React Native, Expo, Firebase, Stripe & tailwind CSS.",
-    features: [
-      "Responsive design",
-      "User authentication using firebase",
-      "Payment Gateway Integration using stripe",
-      "Real-time cart count tracking",
-      "Real-time checkout",
-    ],
-    image: "/mobileEcommerce.png",
-  },
-  {
-    title: "Retro Website",
-    tag: "Web Development",
-    frontend: "HTML, CSS & JavaScript",
-    backend: "",
-    website: "https://sukhretro.netlify.app",
-    description:
-      "Retro website for Ford mustang 1980. This project was built using HTML, CSS & JavaScript. The website is responsive.",
-    features: ["Responsive design", "Small Animations"],
-    image: "/retro.png",
-    github: "https://github.com/Sukhjot-13/retroo",
-  },
-];
+import data from "@/data/data.json";
+const projects = data.projects;
+
 
 function Projects({ direction }) {
   return (

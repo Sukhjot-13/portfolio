@@ -1,26 +1,26 @@
 "use client";
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import sukhjotImage from "@/images/sukhjot1.png";
-import Image from "next/image";
 import { MdOutlineEmail } from "react-icons/md";
 import { MdOutlineLocalPhone } from "react-icons/md";
-import { MdOutlineCake } from "react-icons/md";
+import data from "@/data/data.json";
+import sukhjotImage from "@/images/sukhjot1.png";
+import Image from "next/image";
 
 function Aside() {
   const [contactsOpen, setContactsOpen] = useState(false);
-  const contacts = [
-    {
-      heading: "Email",
-      icon: <MdOutlineEmail color="hsl(45, 100%, 72%)" />,
-      text: "sukhjotsingh441@gmail.com",
-    },
-    {
-      heading: "Phone",
-      icon: <MdOutlineLocalPhone color="hsl(45, 100%, 72%)" />,
-      text: "+1 647-530-8909",
-    },
-  ];
+  const { profile, contacts } = data;
+
+  const getIcon = (type) => {
+    switch (type) {
+      case "email":
+        return <MdOutlineEmail color="hsl(45, 100%, 72%)" />;
+      case "phone":
+        return <MdOutlineLocalPhone color="hsl(45, 100%, 72%)" />;
+      default:
+        return null;
+    }
+  };
 
   return (
     <motion.div
@@ -32,18 +32,18 @@ function Aside() {
     >
       <div className="flex justify-between relative">
         <div className="flex justify-start items-center mt-5 lg:flex-col gap-10">
-          <div className="h-24 w-24 overflow-hidden rounded-3xl relative border-2 border-black bg-tertiary-bg lg:mt-10 lg:p-4 lg:h-40 lg:w-40">
-            <div className="overflow-hidden h-full w-full relative rounded-3xl">
+          <div className="h-24 w-24 overflow-hidden rounded-3xl relative border-2 border-black bg-tertiary-bg lg:mt-10 lg:p-4 lg:h-40 lg:w-40 flex items-center justify-center">
+            {/* <div className="overflow-hidden h-full w-full relative rounded-3xl"> */}
               <Image
                 src={sukhjotImage}
                 alt="Sukhjot"
                 className="w-full h-full object-contain"
                 priority={true}
               />
-            </div>
+            {/* </div> */}
           </div>
           <div className=" text-2xl lg:text-3xl text-primary-text">
-            Sukhjot Singh
+            {profile.name}
           </div>
         </div>
         <div className="absolute -top-3 -right-3 lg:hidden">
@@ -72,7 +72,7 @@ function Aside() {
               {contacts.map((contact) => (
                 <div key={contact.text} className="flex items-center gap-4  ">
                   <div className="p-2 border-white border-2 rounded-xl">
-                    {contact.icon}
+                    {getIcon(contact.type)}
                   </div>
                   <div>
                     <p className="text-highlight-text text-xs">
@@ -92,7 +92,7 @@ function Aside() {
         {contacts.map((contact) => (
           <div key={contact.text} className="flex items-center gap-4 ">
             <div className="p-2 border-white border-2 rounded-xl ">
-              {contact.icon}
+               {getIcon(contact.type)}
             </div>
             <div>
               <p className="text-highlight-text text-xs">{contact.heading}</p>

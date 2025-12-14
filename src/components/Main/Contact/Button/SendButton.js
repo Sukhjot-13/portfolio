@@ -1,8 +1,13 @@
 import React from "react";
 import "./SendButton.css";
-function SendButton() {
+function SendButton({ disabled }) {
   return (
-    <button type="submit" className="send-button">
+    <button
+      type="submit"
+      className="send-button"
+      disabled={disabled}
+      style={{ opacity: disabled ? 0.6 : 1, cursor: disabled ? "not-allowed" : "pointer" }}
+    >
       <div className="svg-wrapper-1">
         <div className="svg-wrapper">
           <svg
@@ -19,7 +24,7 @@ function SendButton() {
           </svg>
         </div>
       </div>
-      <span className="text-highlight-text">Send</span>
+      <span className="text-highlight-text">{disabled ? "Sending..." : "Send"}</span>
     </button>
   );
 }

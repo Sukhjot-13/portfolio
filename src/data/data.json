@@ -1,0 +1,237 @@
+{
+  "profile": {
+    "name": "Sukhjot Singh",
+    "role": "Full Stack Developer",
+    "avatarType": "male",
+    "about": "I'm Sukhjot Singh, a passionate full-stack developer specializing in the\n            MERN stack. With expertise in crafting dynamic, user-friendly websites\n            and applications, I'm dedicated to showcasing my skills and connecting\n            with others through technology. From sleek frontend designs to robust\n            backend functionalities, I thrive on bringing ideas to life. Explore my\n            portfolio to see my proficiency in building custom web applications and\n            optimizing user experiences."
+  },
+  "contacts": [
+    {
+      "heading": "Email",
+      "text": "sukhjotsingh441@gmail.com",
+      "type": "email"
+    },
+    {
+      "heading": "Phone",
+      "text": "+1 647-530-8909",
+      "type": "phone"
+    }
+  ],
+  "whatImDoing": [
+    {
+      "title": "Web Development",
+      "description": "I'm a skilled web developer with expertise in React, Node.js, and Next.js.",
+      "iconType": "WebDev"
+    },
+    {
+      "title": "Mobile Development",
+      "description": "I'm a skilled mobile developer with expertise in React Native.",
+      "iconType": "MobileDev"
+    }
+  ],
+  "resume": {
+    "experience": [
+      {
+        "date": "February 2024 - November 2024",
+        "title": "Mobile Application Developer (Intern), IHP (Interact Health Pro)",
+        "description": "Executed the full mobile development lifecycle, translating complex UI/UX designs into functional, high-performance mobile applications. Developed and optimized both front-end (using React/Next.Js) and robust back-end components, including API development and secure database integration (MongoDB/MySQL). Applied project management principles to define objectives, assign tasks, and monitor progress, ensuring project deadlines were consistently met. Provided technical expertise in debugging complex code, troubleshooting programmatic issues, and generating detailed technical documentation for future reference.",
+        "iconType": "FaMobileAlt",
+        "iconColor": "bg-blue-500"
+      },
+      {
+        "date": "May 2023 - Present",
+        "title": "Assistant Store Manager, Burger King",
+        "description": "Directed and supervised crew members during shifts, ensuring efficient service delivery and adherence to corporate quality and sanitation standards. Enhanced customer satisfaction ratings by effectively mediating and resolving customer complaints with professionalism and promptness. Managed critical financial operations, overseeing cash registers, balancing cash drawers, and ensuring accurate reporting of all shift transactions. Cultivated a positive and collaborative work environment, encouraging teamwork and providing constructive feedback to motivate staff performance.",
+        "iconType": "SiBurgerking",
+        "iconColor": "bg-orange-500"
+      },
+      {
+        "date": "September 2022 - Present",
+        "title": "Assistant Team Leader, Dollarama",
+        "description": "Managed daily store operations, workflow scheduling, and delegation of tasks to ensure peak productivity and efficiency across the floor. Executed critical opening and closing procedures, including comprehensive cash reconciliation, bank deposits, and maintaining stringent store security protocols. Optimized inventory management by ensuring accurate merchandise stocking, visual organization, and full compliance with corporate merchandising standards. Resolved customer inquiries and complaints promptly and professionally while handling high-volume cash transactions and balancing tills.",
+        "iconType": "FaStore",
+        "iconColor": "bg-green-600"
+      },
+      {
+        "date": "November 2023 - April 2024",
+        "title": "Patient Transfer Attendant, Encore",
+        "description": "Coordinated complex patient transfers between facilities, prioritizing safe, timely, and compliant transportation logistics. Maintained clear and professional communication with healthcare providers, patients, and families to facilitate seamless operational transitions. Strictly adhered to patient confidentiality guidelines (HIPAA/PHI) throughout all transfer and documentation processes.",
+        "iconType": "FaRegHospital",
+        "iconColor": "bg-red-500"
+      },
+      {
+        "date": " ",
+        "title": "Mobile/Security Guard, G Force Security, iGuard360 and Jayo security",
+        "description": "Monitored and maintained secure environments for commercial establishments and banking premises through consistent patrolling and proactive risk assessment. Managed and responded immediately to emergency security calls for various institutions during both day and night shifts, ensuring prompt resolution. Conducted detailed vehicle patrols across designated large areas to ensure comprehensive safety and protection of assets. Demonstrated strong situational awareness and problem-solving skills in high-pressure scenarios.",
+        "iconType": "FaShieldAlt",
+        "iconColor": "bg-gray-700"
+      }
+    ],
+    "education": [
+      {
+        "date": "May 2023-Present",
+        "title": "Computer Programming (Georgian college)",
+        "description": "I am in the process of completing my computer programming diploma at Georgian college. I am currently learning web development and mobile app development.",
+        "iconType": "IoIosSchool",
+        "iconColor": "bg-red-500"
+      },
+      {
+        "date": "2020-2022",
+        "title": "High School (Apollo Public School)",
+        "description": "I completed my high school at Apollo Public School in 2020-2022. I graduated with 92% in my high school.",
+        "iconType": "FaSchool",
+        "iconColor": "bg-blue-500"
+      }
+    ],
+    "licenses": [
+      {
+        "title": "First responder certification from Red Cross",
+        "iconType": "FaRegLifeRing"
+      },
+      {
+        "title": "First aid certification",
+        "iconType": "FaMedkit"
+      },
+      {
+        "title": "Security guard certification",
+        "iconType": "FaShieldAlt"
+      }
+    ],
+    "techStack": [
+      {
+        "title": "React",
+        "bgColor": "bg-blue-100",
+        "iconType": "SiReact",
+        "iconColor": "text-blue-500"
+      },
+      {
+        "title": "Next.js",
+        "bgColor": "bg-gray-200",
+        "iconType": "SiNextdotjs",
+        "iconColor": "text-black"
+      },
+      {
+        "title": "HTML5",
+        "bgColor": "bg-red-100",
+        "iconType": "SiHtml5",
+        "iconColor": "text-red-500"
+      },
+      {
+        "title": "CSS3",
+        "bgColor": "bg-blue-200",
+        "iconType": "SiCss3",
+        "iconColor": "text-blue-600"
+      },
+      {
+        "title": "JavaScript",
+        "bgColor": "bg-yellow-100",
+        "iconType": "SiJavascript",
+        "iconColor": "text-yellow-500"
+      },
+      {
+        "title": "Firebase",
+        "bgColor": "bg-yellow-200",
+        "iconType": "SiFirebase",
+        "iconColor": "text-yellow-600"
+      },
+      {
+        "title": "Auth0",
+        "bgColor": "bg-orange-100",
+        "iconType": "SiAuth0",
+        "iconColor": "text-orange-500"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Vistaenvision",
+      "tag": "Web Development",
+      "frontend": "Next.js, Tailwind CSS",
+      "backend": "",
+      "website": "https://vistaenvision.com",
+      "description": "A portfolio website for a 3D architect product visualiser, showcasing their work in a visually immersive manner. Built with Next.js for high performance.",
+      "features": [
+        "Immersive 3D Visuals Showcase",
+        "Responsive Portfolio Grid",
+        "Fast Performance Next.js"
+      ],
+      "image": "/vistaEnvision.png",
+      "github": ""
+    },{
+      "title": "Url Shortner",
+      "tag": "Web Development",
+      "frontend": "Next.js, React, Tailwind CSS",
+      "backend": "Node.js, MongoDB",
+      "website": "https://sukhurl.netlify.app/",
+      "description": "Url Shortner is a web app that allows users to shorten their long URLs. Users can create an account, create a short URL, and share it with friends. This project was built using Next.js, React, Tailwind CSS, Node.js and MongoDB. The links expires after a fixed time period.",
+      "features": [
+        "Fully responsive design",
+        "Custom user authentication",
+        "Real-time link count tracking",
+        "Link Expiry"
+      ],
+      "image": "/urlShort.webp",
+      "github": "https://github.com/Sukhjot-13/url_shortner"
+    },
+    {
+      "title": "Ecommerce Website",
+      "tag": "Web Development",
+      "frontend": "React",
+      "backend": "Node.js, MongoDB",
+      "website": "https://ecommerce-client-chi-cyan.vercel.app/",
+      "description": "Ecommerce website is a web app that allows users to buy products. Users can create an account, add products to cart, and checkout. This project was built using React, Tailwind CSS, Node.js, MongoDB.",
+      "features": [
+        "Responsive design",
+        "User authentication using firebase",
+        "Payment Gateway Integration using stripe",
+        "Real-time cart count tracking",
+        "Real-time checkout"
+      ],
+      "image": "/ecommerce.png",
+      "github": "https://github.com/Sukhjot-13/ecommerce_mern"
+    },
+    {
+      "title": "React native Ecommerce",
+      "tag": "Mobile Development",
+      "frontend": "React Native, Expo, Firebase, Stripe & tailwind CSS",
+      "backend": "Node.js, MongoDB",
+      "description": "Ecommerce mobile app is a mobile app that allows users to buy products. Users can create an account, add products to cart, and checkout. This project was built using React Native, Expo, Firebase, Stripe & tailwind CSS.",
+      "features": [
+        "Responsive design",
+        "User authentication using firebase",
+        "Payment Gateway Integration using stripe",
+        "Real-time cart count tracking",
+        "Real-time checkout"
+      ],
+      "image": "/mobileEcommerce.png",
+      "github": ""
+    },
+    {
+      "title": "Retro Website",
+      "tag": "Web Development",
+      "frontend": "HTML, CSS & JavaScript",
+      "backend": "",
+      "website": "https://sukhretro.netlify.app",
+      "description": "Retro website for Ford mustang 1980. This project was built using HTML, CSS & JavaScript. The website is responsive.",
+      "features": [
+        "Responsive design",
+        "Small Animations"
+      ],
+      "image": "/retro.png",
+      "github": "https://github.com/Sukhjot-13/retroo"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Lucie Porter",
+      "position": "CEO, AJND.inc",
+      "testimonial": "Sukhjot led his team with great effectiveness, exhibiting remarkable leadership qualities. He made substantial contributions to the planning and research stages and was crucial in establishing the project's goals. His excellent problem-solving and technical capabilities were crucial in leading the team to a successful project conclusion. Sukhjot is a very committed and driven person who constantly went above and beyond. I have faith that he can make a significant contribution to any kind of organization.",
+      "avatarType": "female"
+    },{
+      "name": "Robin ",
+      "position": "Vistaenvision",
+      "testimonial": "Sukhjot led his team with great effectiveness, exhibiting remarkable leadership qualities. He made substantial contributions to the planning and research stages and was crucial in establishing the project's goals. His excellent problem-solving and technical capabilities were crucial in leading the team to a successful project conclusion. Sukhjot is a very committed and driven person who constantly went above and beyond. I have faith that he can make a significant contribution to any kind of organization.",
+      "avatarType": "male"
+    }
+  ]
+}
