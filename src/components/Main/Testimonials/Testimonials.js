@@ -28,7 +28,7 @@ const Testimonials = ({ testimonials }) => {
                <p className="text-sm text-highlight-text ml-12 mb-2">
                 {testimonial.position}
               </p>
-              <p className="text-secondary-text text-sm italic">"{testimonial.testimonial}"</p>
+              <p className="text-secondary-text text-sm italic">&quot;{testimonial.testimonial}&quot;</p>
             </div>
         )
       })}
